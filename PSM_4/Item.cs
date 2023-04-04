@@ -6,10 +6,18 @@ namespace PSM_4
     {
         public double Radius { get; private set; }
         public double Mass { get; private set; }
-        public double I { get; set; }
+        public double I { get; set; } // moment bezwładności
 
-        public double X;
-        public double Y;
+        public double V { get; set; } //prędkość obiektu
+
+        public double A { get; set; } //przyspieszenie liniowe obiektu
+        
+        public double W { get; set; } //prędkość kątowa
+        public double E { get; set; } //przyspieszenie kątowe
+
+
+        public double X; //wartość wpółrzędnej X
+        public double Y; //wartość wpółrzędnej Y
 
         public double XRounded => Math.Round(X, 7);
 
@@ -23,6 +31,10 @@ namespace PSM_4
             Mass = mass;
             X = x;
             Y = y;
+            A = 0;
+            V = 0;
+            W = 0;
+            E = 0;
         }
     }
 }

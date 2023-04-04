@@ -8,12 +8,12 @@ Nie jest wymagane wykonanie animacji.
 Równania opisujące ruch liniowy środka masy:
 {
 𝑑𝑠/𝑑𝑡 = 𝑣
-𝑑𝑣/𝑑𝑡 = 𝑎
+𝑑𝑣/𝑑𝑡 = a
 }
 
-Gdzie 𝑎 = 𝑔𝑠𝑖𝑛(𝛼)/(1+(I/(𝑚(𝑟^2))))
+Gdzie a = 𝑔𝑠𝑖𝑛(alfa)/(1+(I/(𝑚(𝑟^2))))
 
-α to kąt nachylenia równi
+alfa to kąt nachylenia równi
 I momenty bezwładności
 
 𝐼𝑘𝑢𝑙𝑖 =0,4*(𝑚(𝑟^2)
@@ -24,4 +24,4 @@ Równania opisujące ruch obrotowy:
 𝑑𝛽/𝑑𝑡 = 𝜔
 𝑑𝜔/𝑑𝑡 = 𝜀 
 }
-gdzie 𝜀 = 𝑎/𝑟
+gdzie 𝜀 = a/𝑟
