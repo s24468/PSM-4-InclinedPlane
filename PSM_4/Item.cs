@@ -9,6 +9,7 @@ namespace PSM_4
         public double I { get; set; } // moment bezwładności
         public double V { get; set; } //prędkość obiektu
 
+        public double Theta { get; set; } // kąt obrotu
         public double A { get; set; } //przyspieszenie liniowe obiektu
         
         public double W { get; set; } //prędkość kątowa
@@ -34,6 +35,7 @@ namespace PSM_4
             V = 0;
             W = 0;
             E = 0;
+            Theta = 0;
         }
     }
 }
