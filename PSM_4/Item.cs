@@ -7,7 +7,6 @@ namespace PSM_4
         public double Radius { get; private set; }
         public double Mass { get; private set; }
         public double I { get; set; } // moment bezwładności
-
         public double V { get; set; } //prędkość obiektu
 
         public double A { get; set; } //przyspieszenie liniowe obiektu
